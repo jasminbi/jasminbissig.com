@@ -1,0 +1,34 @@
+:root {
+  /* Colors */
+  --deep-pink: rgba(217, 59, 117, 1);
+  --light-pink: rgba(242, 107, 170, 1);
+  --deep-purple: rgba(112, 108, 217, 1);
+  --light-purple: rgba(151, 148, 242, 1);
+  --lightest-gray: rgba(242, 242, 242, 1);
+
+  --lightest-gray-transp: rgba(242, 242, 242, 0.7);
+
+  /* Typography */
+  --font-family: "Montserrat", sans-serif;
+  --font-size: 20px;
+  --font-size-nav: 30px;
+  --font-size-condensed: 18px;
+  --line-height: 1.5;
+  --font-size-bigger: 1.8em;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --vertical-margin-home: 200px;
+}
+
+/* Medium devices (landscape tablets) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops) */
+@media only screen and (min-width: 1200px) {
+}
