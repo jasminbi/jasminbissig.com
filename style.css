@@ -42,14 +42,17 @@ h3 {
 .bigger {
   font-size: var(--font-size-bigger);
 }
+.centered {
+  text-align: center;
+}
 
 /* Navigation */
 .logo-nav {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 20px;
+  left: 24px;
   z-index: 99;
-  height: 150px;
+  height: 80px;
 }
 
 .nav {
@@ -176,9 +179,9 @@ h3 {
 } */
 
 .color-block {
-  width: 45vw;
+  width: 50vw;
   padding: 4px 0 0;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   overflow: hidden;
   position: absolute;
   right: 20px;
@@ -192,22 +195,80 @@ h3 {
   justify-content: center;
 }
 
-.item-small {
+.item-foto {
   width: 25vw;
   margin: 20px;
 }
 
-.item-big {
+.item-high {
   width: 40vw;
+  margin: 20px auto;
+}
+
+.item-broad {
+  max-width: 60vw;
   margin: 20px auto;
 }
 
 /* Medium devices (landscape tablets) */
 @media only screen and (min-width: 768px) {
+  #intro {
+    margin: -15vh 60px 0 30vw;
+    font-size: var(--font-size-bigger);
+    font-weight: var(--font-weight-bold);
+  }
 }
 
 /* Large devices (laptops/desktops) */
 @media only screen and (min-width: 992px) {
+  .logo-nav {
+    height: 40px;
+  }
+
+  .nav li a {
+    padding: 18px 18px;
+  }
+
+  #logo {
+    width: 40vw;
+  }
+
+  .portfolio-image {
+    max-width: 40vw;
+    max-height: 80vh;
+    margin-right: 60px;
+  }
+
+  .photo-container {
+    align-items: flex-start;
+    display: flex;
+    width: 50vw;
+  }
+
+  .item-foto {
+    max-width: 15vw;
+    margin: 20px;
+  }
+
+  .item-high {
+    max-width: 10vw;
+    margin: 20px;
+  }
+
+  .item-broad {
+    max-width: 20vw;
+    margin: 20px;
+  }
+
+  .project-tile {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .color-block {
+    right: 60px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops) */
