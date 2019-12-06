@@ -6,7 +6,13 @@
   --light-purple: rgba(151, 148, 242, 1);
   --lightest-gray: rgba(242, 242, 242, 1);
 
-  --lightest-gray-transp: rgba(242, 242, 242, 0.7);
+  --deep-pink-trans: rgba(217, 59, 117, 0.5);
+  --light-pink-trans: rgba(242, 107, 170, 0.5);
+  --deep-purple-trans: rgba(112, 108, 217, 0.5);
+  --light-purple-trans: rgba(151, 148, 242, 0.5);
+  --lightest-gray-trans: rgba(242, 242, 242, 0.5);
+
+  --lightest-gray-transp: rgba(242, 242, 242, 0.5);
 
   /* Typography */
   --font-family: "Montserrat", sans-serif;
