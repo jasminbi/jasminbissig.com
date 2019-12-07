@@ -28,18 +28,17 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: var(--font-weight-bold);
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: var(--font-weight-bold);
 }
 
 h3 {
-  font-size: 1.2em;
   font-weight: var(--font-weight-bold);
 }
 
@@ -175,6 +174,13 @@ h3 {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#contact-container {
+  height: 80vh;
+  background-color: var(--deep-purple);
+  padding: 100px;
+  color: white;
 }
 
 .portfolio-image {
