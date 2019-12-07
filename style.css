@@ -6,6 +6,7 @@
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 html,
@@ -176,11 +177,36 @@ h3 {
   justify-content: center;
 }
 
-#contact-container {
-  height: 80vh;
+#contact {
+  margin-top: var(--vertical-margin-home);
+  height: 60vh;
   background-color: var(--deep-purple);
   padding: 100px;
   color: white;
+}
+
+.contact-container {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-pen {
+  height: 2em;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contact-mail p {
+  display: inline-block;
+}
+
+.social-container {
+  height: 2em;
+}
+
+.social-container img {
+  height: 100%;
 }
 
 .portfolio-image {
