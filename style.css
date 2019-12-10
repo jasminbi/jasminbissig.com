@@ -81,7 +81,7 @@ h3 {
 .nav li a {
   display: block;
   text-align: center;
-  padding: 24px 28px;
+  padding: 20px 24px;
   text-decoration: none;
   color: black;
   letter-spacing: 3px;
@@ -189,6 +189,7 @@ h3 {
   margin-top: 150px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .contact-pen {
@@ -197,10 +198,14 @@ h3 {
   margin-right: 10px;
 }
 
-.contact-mail p {
+/* .contact-mail p {
   display: inline-block;
+} */
+.contact-mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .social-container {
   height: 2em;
 }
