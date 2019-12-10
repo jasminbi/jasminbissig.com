@@ -46,8 +46,10 @@ h3 {
 .bigger {
   font-size: var(--font-size-bigger);
 }
-.centered {
+.projects-section-title {
   text-align: center;
+  font-size: 4em;
+  color: black;
 }
 
 /* Navigation */
