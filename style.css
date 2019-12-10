@@ -300,7 +300,7 @@ h3 {
   .portfolio-image {
     max-width: 40vw;
     max-height: 80vh;
-    margin-right: 60px;
+    margin: 60px;
   }
 
   .photo-container {
