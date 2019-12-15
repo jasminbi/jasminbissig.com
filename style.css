@@ -46,11 +46,6 @@ h3 {
 .bigger {
   font-size: var(--font-size-bigger);
 }
-.projects-section-title {
-  text-align: center;
-  font-size: 4em;
-  color: black;
-}
 
 /* Navigation */
 .logo-nav {
@@ -102,7 +97,7 @@ h3 {
   text-align: center;
 }
 
-#logo {
+#hero-logo {
   display: block;
   width: 70vw;
   margin: 0;
@@ -177,6 +172,12 @@ h3 {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.projects-section-title {
+  text-align: center;
+  font-size: 4em;
+  color: black;
 }
 
 #contact {
