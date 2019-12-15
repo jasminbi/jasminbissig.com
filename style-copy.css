@@ -163,8 +163,6 @@ h3 {
   padding: 200px 0;
   background-color: var(--lightest-gray);
   margin-top: 20px;
-  /* height: 100vh; */
-  /* background-color: var(--light-purple); */
 }
 
 .project-container {
@@ -178,6 +176,29 @@ h3 {
   text-align: center;
   font-size: 4em;
   color: black;
+}
+
+.portfolio-image {
+  max-width: 100vw;
+}
+
+.padded {
+  padding: 50px;
+}
+
+.linewrap > span {
+  background: var(--deep-pink);
+  color: white;
+  padding: 5px;
+}
+
+.color-block {
+  width: 50vw;
+  padding: 4px 0 0;
+  overflow: hidden;
+  position: absolute;
+  right: 20px;
+  text-align: right;
 }
 
 #contact {
@@ -201,9 +222,6 @@ h3 {
   margin-right: 10px;
 }
 
-/* .contact-mail p {
-  display: inline-block;
-} */
 .contact-mail {
   display: flex;
   justify-content: center;
@@ -215,61 +233,6 @@ h3 {
 
 .social-container img {
   height: 100%;
-}
-
-.portfolio-image {
-  max-width: 100vw;
-}
-
-/* .project-title {
-  text-align: right;
-  margin-right: 2em;
-  color: white;
-  padding: 50px;
-} */
-
-.linewrap > span {
-  background: var(--deep-pink);
-  color: white;
-  padding: 5px;
-}
-/* 
-.linewrap span span {
-  left: -10px;
-  position: relative;
-  z-index: 2;
-} */
-
-.color-block {
-  width: 50vw;
-  padding: 4px 0 0;
-  /* padding-left: 20px; */
-  overflow: hidden;
-  position: absolute;
-  right: 20px;
-  text-align: right;
-}
-
-.photo-container {
-  display: flex;
-  flex-flow: row wrap;
-  padding: 5px;
-  justify-content: center;
-}
-
-.item-foto {
-  width: 25vw;
-  margin: 20px;
-}
-
-.item-high {
-  width: 40vw;
-  margin: 20px auto;
-}
-
-.item-broad {
-  max-width: 60vw;
-  margin: 20px auto;
 }
 
 /* Large devices (laptops/desktops) */
