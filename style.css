@@ -67,7 +67,7 @@ h3 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: var(--lightest-gray-transp);
+  background-color: rgba(242, 242, 242, 0.9);
   overflow: hidden;
 }
 
